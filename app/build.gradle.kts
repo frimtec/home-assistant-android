@@ -128,8 +128,8 @@ dependencies {
         exclude(group = "org.json", module = "json")
     }
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21")
-    implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.21")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.30")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1")
 
@@ -149,7 +149,7 @@ dependencies {
     implementation("androidx.room:room-ktx:2.3.0")
     kapt("androidx.room:room-compiler:2.3.0")
 
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.4")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.5")
     implementation("com.squareup.okhttp3:okhttp:4.9.1")
     implementation("com.squareup.picasso:picasso:2.8")
 
@@ -157,7 +157,7 @@ dependencies {
     "fullImplementation"("com.google.firebase:firebase-core:19.0.0")
     "fullImplementation"("com.google.firebase:firebase-iid:21.1.0")
     "fullImplementation"("com.google.firebase:firebase-messaging:22.0.0")
-    "fullImplementation"("io.sentry:sentry-android:5.1.1")
+    "fullImplementation"("io.sentry:sentry-android:5.2.0")
 
     implementation("androidx.work:work-runtime-ktx:2.5.0")
     implementation("androidx.biometric:biometric:1.1.0")
